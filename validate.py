@@ -50,3 +50,5 @@ login = tk.Button(root, text ="Log In" , command = lambda:logInValidate(username
   # signup = tk.Button(root, text ="Sign Up" , command = lambda:passwordValidate(passwordEnter)).grid(row = 2, column = 0) # Sign Up Button
 
 root.mainloop() #runs the GUI
+
+bool 
