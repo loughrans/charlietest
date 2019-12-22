@@ -8,6 +8,8 @@ def logInValidate(usernameTk, validatePassword):  #Checks if username and passwo
     username = usernameTk.get()
     password = validatePassword.get()
     username = str(username)
+    if username == "willy":
+        print("What a big one!")
     with open('users.csv', 'r') as file:
         users = csv.reader(file)
         i = 0
