@@ -10,7 +10,7 @@ def logInValidate(usernameTk, passwordTk):  # Checks if username and password ar
     username = usernameTk.get()
     password = passwordTk.get()
     username = str(username)
-    with open("../data/users.csv", "r") as file:
+    with open("data/users.csv", "r") as file:
         users = csv.reader(file)
         i = 0
         line = 0
