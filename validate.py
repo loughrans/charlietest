@@ -1,10 +1,11 @@
+import csv
 import tkinter as tk
 
 root = tk.Tk()
 root.geometry("500x500") #Sets the parameters of the window
 
 def logInValidate(usernameTk, validatePassword):  #Checks if username and password are in table together
-    import csv
+    
     
     username = usernameTk.get()
     password = validatePassword.get()
