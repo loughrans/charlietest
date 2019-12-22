@@ -52,4 +52,4 @@ login = tk.Button(root, text ="Log In" , command = lambda:logInValidate(username
 root.mainloop() #runs the GUI
 
 
-#you smell of hamsters
+#you smell of hamsters poo poo pooo pooo poo 
