@@ -51,4 +51,3 @@ login = tk.Button(root, text ="Log In" , command = lambda:logInValidate(username
 
 root.mainloop() #runs the GUI
 
-bool 
